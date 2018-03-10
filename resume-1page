@@ -1,0 +1,155 @@
+
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}                                
+% color options 'grey', 'blue' are also options
+\nopagenumbers{}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage[scale=0.8]{geometry}
+\usepackage{multicol}
+
+\usepackage{import}
+
+\name{Clifford}{Bakalian}
+
+\address{560 Keswick Dr, Yardley, PA 19067}{}{}
+  
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{12pt}
+
+\begin{document}
+
+\makecvtitle
+\vspace*{-23mm}
+
+\begin{center}
+\begin{tabular}{ c c c c }
+ \faGlobe\enspace bakalian.ddns.net & \faEnvelopeO\enspace cliffbakalian@gmail.com & \faGithub\enspace cliffbakalian & \faMobile\enspace 215-431-3123\\  
+\end{tabular}
+\end{center}
+
+\section{EDUCATION}
+{\customcventry{Expected Graduation: May 2020}{BS in Computer Science}{University of Maryland}{College Park, MD}{}{}}
+{\itshape Minor in Philosophy} \hfill {\itshape GPA: 3.95/4.0}
+
+\section{EXPERIENCE}
+
+{\customcventry{Summer and Winters 2016-Present}{OMB Warehouse}{Data Manager}{Levittown, PA}{}
+{\begin{itemize}
+  \item Used TensorFlow and neural networks in python to develop autonomous programs and data processing modules
+\end{itemize}
+}
+
+{\customcventry{Aug 2016 - Present}{University of Maryland's iSchool}{Information Technician Assistant}{College Park, MD}{}
+{\begin{itemize}
+  \item With Angular/React Framework, reviewed code for a Virutal Computer Lab using AWS
+\end{itemize}
+}
+
+{\customcventry{Aug 2017 – December 2017}{Augmented Reality Club}{Backend Developer}{College Park, MD}{}
+{\begin{itemize}
+	\item Developed backend mySQL server for the University of Maryland's Augmented Reality Club website
+    \item Worked and gained experience with the Django framework, python, git, mySQL and team coding projects
+\end{itemize}
+}
+
+\section{PROJECTS}
+
+{\customcvproject{Corners - Android App}{December 2017 - Present}
+  {\begin{itemize}
+      \item Created original game and implemented it in Android Studio
+    \item Gained experience with AI creation for games, mobile app development and UI Design
+  \end{itemize}
+  }
+}
+{\customcvproject{Virtual Assistant}{June 2017 - Present}
+{\begin{itemize}
+  \item Created a virtual assistant capable of weather and scheduling organization in python
+  \item Uses sphinxbase and Google Speech API and uses Python's natural language processing toolkit
+\end{itemize}
+}
+{\customcvproject{Web/Git Server}{November 2017}
+{\begin{itemize}
+  \item Setup a Raspberry Pi as a LAMP server for web hosting and git repositories
+  \item Gained web development skills and basic system administration experience
+\end{itemize}
+}
+}
+
+{\customcvproject{Robotic Pet - Bitcamp Hackathon}{March 2017}
+{\begin{itemize}
+  \item Created a hardware hack of a robotic pet with 3 others on a team
+  \item In charge of coding and gained more experience with Arduino hardware/software design
+\end{itemize}
+}
+
+{\customcvproject{Illness Risk - Dataleague Hackathon}{December 2016}
+{\begin{itemize}
+  \item Worked with 2 others to make a web application to predict the probaility of a airbone disease spreading
+  \item Came 2nd at hackathon and gained experience with data analysis and API implementation
+\end{itemize}
+}
+
+{\customcvproject{Endless Runner -Dektop/Android App}{September - December 2016}
+{\begin{itemize}
+  \item Created an endless runner game using java for desktop applications, later ported to android
+  \item Gained experience with software engineering, mobile app development and UI design
+\end{itemize}
+}
+
+\section{ADDITIONAL}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
+    	\begin{itemize}
+          \item Relevant Coursework: Data Structures, Algorithms, Computer Systems, Programming Languages
+          \item Programming Languages: Java, C, Python, PHP, HTML/CSS, Ruby, Ocaml, Assembly, Visual Basic
+          \item Teaching Assistant for Discrete Mathematics, and Chess Instructor for Lower Bucks County Chess Academy
+          \item Limited Experience wth Kali linux, Penetration Testing, Arduino hardware design
+		\end{itemize}}
+\end{minipage}
+      
+}
+\end{document}
