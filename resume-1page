@@ -9,7 +9,7 @@
 % character encoding
 \usepackage[utf8]{inputenc}
 \usepackage{fontawesome}
-\usepackage{fontspec}
+%\usepackage{fontspec}
 \usepackage{tabularx}
 \usepackage{ragged2e}
 \usepackage[scale=0.8]{geometry}
@@ -73,11 +73,17 @@
 
 \section{EDUCATION}
 {\customcventry{Expected Graduation: May 2020}{BS in Computer Science}{University of Maryland}{College Park, MD}{}{}}
-{\itshape Minor in Philosophy} \hfill {\itshape GPA: 3.95/4.0}
+{\itshape Minor in Philosophy} \hfill {\itshape GPA: 3.85/4.0}
 
 \section{EXPERIENCE}
+{\customcventry{January 2018 - present}{University of Maryland}{Teaching Assistant}{College Park, MD}{}
+{\begin{itemize}
+  \item Lead discussions for Discrete Structures for Spring 2018 and Object Oriented Programming II for Summer 2018
+  \item Learned and became familliar with Vim and \LaTeX
+\end{itemize}
+}
 
-{\customcventry{Summer and Winters 2016-Present}{OMB Warehouse}{Data Manager}{Levittown, PA}{}
+{\customcventry{June - August 2017, December 2017 - January 2018}{OMB Warehouse}{Data Manager}{Levittown, PA}{}
 {\begin{itemize}
   \item Used TensorFlow and neural networks in python to develop autonomous programs and data processing modules
 \end{itemize}
@@ -143,12 +149,13 @@
 \section{ADDITIONAL}
 \begin{minipage}{\maincolumnwidth}%
 	\small{
-    	\begin{itemize}
-          \item Relevant Coursework: Data Structures, Algorithms, Computer Systems, Programming Languages
-          \item Programming Languages: Java, C, Python, PHP, HTML/CSS, Ruby, Ocaml, Assembly, Visual Basic
-          \item Teaching Assistant for Discrete Mathematics, and Chess Instructor for Lower Bucks County Chess Academy
-          \item Limited Experience wth Kali linux, Penetration Testing, Arduino hardware design
-		\end{itemize}}
+    \begin{itemize}
+      \item Relevant Coursework: Intro to Data Structures, Algorithms, Computer Systems, Programming Languages
+      \item Programming Languages: Java, C, Python, PHP, HTML/CSS, Ruby, Ocaml, Assembly, Visual Basic
+      \item Familliar Software: Arch Linux, MacOS, Windows, Android Studio
+      \item Limited Experience wth Kali linux, Penetration Testing, Arduino hardware design
+	  \end{itemize}
+  }
 \end{minipage}
       
 }
