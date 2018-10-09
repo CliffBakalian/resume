@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.21)  4 OCT 2018 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.9.21)  8 OCT 2018 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,23 +861,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
 
 (./Clifford_Bakalian.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `Clifford_Bakalian.out' has not changed.
 (rerunfilecheck)             Checksum: 118A380B37317176A24EF20C8B6E683B;357.
  )
 (\end occurred inside a group at level 7)
 
-### simple group (level 7) entered at line 136 ({)
-### simple group (level 6) entered at line 129 ({)
-### simple group (level 5) entered at line 115 ({)
-### simple group (level 4) entered at line 99 ({)
-### simple group (level 3) entered at line 93 ({)
+### simple group (level 7) entered at line 137 ({)
+### simple group (level 6) entered at line 130 ({)
+### simple group (level 5) entered at line 116 ({)
+### simple group (level 4) entered at line 100 ({)
+### simple group (level 3) entered at line 94 ({)
 ### simple group (level 2) entered at line 87 ({)
 ### simple group (level 1) entered at line 79 ({)
 ### bottom level 
@@ -894,7 +894,7 @@ share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/tex
 mf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/f
 onts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf-dist/fonts/type1/public/t
 ex-gyre/qplr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Clifford_Bakalian.pdf (2 pages, 205424 bytes).
+Output written on Clifford_Bakalian.pdf (2 pages, 205496 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
