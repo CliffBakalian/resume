@@ -1,1 +1,1 @@
-![image of resume](./resume.png]
+![image of resume](./resume.png)
