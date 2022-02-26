@@ -10,7 +10,10 @@ cv-pdf: full_cv.tex
 	pdflatex full_cv.tex
 
 cv-png: cv-pdf
-	convert -density 600 -background white full_cv.pdf -quality 90 cv.png
+	convert -density 600 full_cv.pdf -quality 90 cv.png
+
+cv-white: cv-png
+	python convert.py convert cv-0.png -background white -flatten cv-0.png
 
 clean:
 	rm -f *.aux *.out *.log 
